@@ -117,7 +117,7 @@ function calculateTotalPrice(elements: Product[]): number {
       return total;
     })
 
-  const sum = calcTotal.reduce((acc, curr) => acc + curr, 0);
+  const sum = calcTotal.reduce((n1, n2) => n1 + n2);
 
   return sum;
 }
