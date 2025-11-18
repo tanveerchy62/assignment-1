@@ -20,7 +20,7 @@ price: number;
 category?: string;
 }
 
-#Provide an example of using union and intersection types in Typescript
+# Provide an example of using union and intersection types in Typescript
 
 Union:
 Union টাইপ একটা ভেরিয়েবলকে একের অধিক টাইপ ডিক্লেয়ার করতে সাহায্য করে। যেমন:
